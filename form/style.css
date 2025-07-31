@@ -36,3 +36,8 @@ h2 {
   text-align: center;
   color: #333;
 }
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
