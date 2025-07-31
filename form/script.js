@@ -25,4 +25,18 @@ document.getElementById('resume-form').addEventListener('submit', function(event
   localStorage.setItem('summary', summary);
   localStorage.setItem('experience', experience);
   localStorage.setItem('reference', reference);
-})
+
+  const fielInput = document.getElementById('profile-pic');
+  if(fileInput.files.length > 0) {
+    const reader = new FileReader();
+    reader.onload = function() {
+      // Save Base64-encoded image to localStorage:contentReference
+      [oaicite:16]{index=16}
+      localStorage.setItem('profile-pic', reader.result);
+      window.open('../resume/resume.html'. '_blank');
+    };
+    reader.readAsDataURL(fileInput.files[0]);
+  } else {
+    window.open('../resume/resume.html', '_blank');
+  }
+});
