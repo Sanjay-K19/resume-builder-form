@@ -12,4 +12,17 @@ document.getElementById('resume-form').addEventListener('submit', function(event
   const summary = document.getElementById('summary').value;
   const experience = document.getElementById('experience').value;
   const reference = document.getElementById('reference').value;
+
+  //Store data in localStorage (as strings):contentReference
+  [oaisite:15]{index=15}
+  localStorage.setItem('fullName', fullName);
+  localStorage.setItem('email', email);
+  localStorage.setItem('phone', phone);
+  localStorage.setItem('jobTitle', jobTitle);
+  localStorage.setItem('address', address);
+  localStorage.setItem('education', education);
+  localStorage.setItem('skills', skills);
+  localStorage.setItem('summary', summary);
+  localStorage.setItem('experience', experience);
+  localStorage.setItem('reference', reference);
 })
