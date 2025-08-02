@@ -56,3 +56,9 @@ resume-header {
   color: #333333;
   margin-bottom: 5px;
 }
+
+/* Skills as styled list badges */
+#skills-list {
+  list-style: none;
+  padding: 0;
+}
