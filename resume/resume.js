@@ -26,5 +26,15 @@ document.getElementById('education').textContent = education;
 document.getElementById('summary').textContent = summary;
 document.getElementById('experience').textContent = experience;
 document.getElementById('reference').textContent = reference;
+
+// Fill in the skills list (split by commas)
+const skillsList = document.getElementById('skills-list');
+skills.split(',').forEach(skill => {
+  if (skill.trim() !== '') {
+    const li = document.createElement('li');
+    li.textContent = skill.trim();
+    skillsList.appendChild(li);
+  }
+});
 })
 
