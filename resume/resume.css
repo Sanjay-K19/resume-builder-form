@@ -2,3 +2,12 @@
 body {
   margin: 0;
 }
+
+/* Header with profile picture and name and title */
+resume-header {
+  display: flex;
+  align-items: center;
+  background-color: #2E2E2E;
+  color: white;
+  padding: 20px;
+}
