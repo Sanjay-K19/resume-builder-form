@@ -36,5 +36,13 @@ skills.split(',').forEach(skill => {
     skillsList.appendChild(li);
   }
 });
-})
+
+// Set profile picture if available
+const imgElem = document.getElementById('profilePic');
+if (profilePic) {
+  imgElem.src = profilePic;
+} else {
+  imgElem.style.display = 'none';
+}
+});
 
