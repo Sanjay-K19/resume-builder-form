@@ -20,5 +20,11 @@ document.getElementById('jobTitle').textContent = jobTitle;
 document.getElementById('email').textContent = email;
 document.getElementById('phone').textContent = phone;
 document.getElementById('address').textContent = address;
+
+// Set education, summary, experience, reference
+document.getElementById('education').textContent = education;
+document.getElementById('summary').textContent = summary;
+document.getElementById('experience').textContent = experience;
+document.getElementById('reference').textContent = reference;
 })
 
