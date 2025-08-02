@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form For Resume</title>
-  <link rel="stylesheet" href="style.css">  <!--linking css here-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive meta tag -->
+  <title>Resume Builder - Form</title>
+  <link rel="stylesheet" href="style.css"> <!-- Shared base styles -->
 </head>
 <body>
   <img src="bg4_image.jpg" alt="Background Image" id="backgroundImage">
@@ -12,35 +12,35 @@
     <form id="resume-form">
       <h2>Build Your Resume</h2>
 
-      <label for="name">Full Name*:</label>
+      <label for="name">Full Name:</label>
       <input type="text" id="name" name="name" required>
 
-      <label for="email">Email*:</label>
+      <label for="jobTitle">Job Title:</label>
+      <input type="text" id="jobTitle" name="jobTitle" required>
+
+      <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
 
       <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" pattern="\d{10}" title="Enter a 10-digit phone number">
+      <input type="tel" id="phone" name="phone" pattern="\d{10}" title="Enter a 10-digit phone number" required>
 
-      <label for="jobTitle">Job Title:</label>
-      <input type="text" id="jobTitle" name="jobTitle">
-
-      <label for="address">Address*:</label>
+      <label for="address">Address:</label>
       <textarea id="address" name="address" rows="3" required></textarea>
 
       <label for="education">Education:</label>
-      <textarea id="education" name="education" rows="3"></textarea>
+      <textarea id="education" name="education" rows="3" required></textarea>
 
-      <label for="skills">Skills(comma-separated):</label>
-      <input type="text" id="skills" name="skills">
+      <label for="skills">Skills (comma-separated):</label>
+      <input type="text" id="skills" name="skills" required>
 
       <label for="summary">Summary:</label>
-      <textarea id="summary" name="summary" rows="3"></textarea>
+      <textarea id="summary" name="summary" rows="3" required></textarea>
 
-      <label for="experience">Experience:</label>
-      <textarea id="experience" name="experience" rows="3"></textarea>
+      <label for="experience">Work Experience:</label>
+      <textarea id="experience" name="experience" rows="3" required></textarea>
 
-      <label for="reference">Reference:</label>
-      <textarea id="reference" name="reference" rows="2"></textarea>
+      <label for="references">References:</label>
+      <textarea id="references" name="references" rows="2" required></textarea>
 
       <label for="profile-pic">Profile Picture:</label>
       <input type="file" id="profile-pic" accept="image/*">
@@ -48,6 +48,7 @@
       <button type="submit">Generate Resume</button>
     </form>
   </main>
-  <script src="script.js"></script>     <!--Linking the javascript-->
+
+  <script src="script.js"></script> <!-- Form handling script -->
 </body>
 </html>
