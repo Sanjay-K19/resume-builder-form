@@ -27,6 +27,7 @@ body {
   margin: 0;
   font-size: 1.2em;
   font-weight: normal;
+  color: white;
 }
 
 /* Two-column layout for resume content */
@@ -38,7 +39,7 @@ body {
 }
 .sidebar {
   width: 30%;
-  background-color: #f2f2f2;
+  background-color: #e4c6c6;
   padding: 20px;
 }
 .content {
