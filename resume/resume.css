@@ -88,3 +88,7 @@ resume-header {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#editBtn:hover {
+  background-color: #5a6268;
+}
