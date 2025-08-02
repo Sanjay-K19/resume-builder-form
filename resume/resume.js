@@ -1,0 +1,14 @@
+// Fill in the resume from localStorage when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  const fullName = localStorage.getItem('fullName') || '';
+  const email = localStorage.getItem('email') || '';
+  const phone = loalStorage.getItem('phone') || '';
+  const jobTitle = localStorage.getItem('jobTitle') || '';
+  const address = localStorage.getItem('address') || '';
+  const education = localStorage.getItem('education') || '';
+  const skills = localStorage.getItem('skills') || '';
+  const summary = loalStorage.getItem('summary') || '';
+  const experience = localStorage.getItem('experience') || '';
+  const reference = loalStorage.getItem('reference') || '';
+  const profilePic = localStorage.getItem('profilePic');
+})
