@@ -25,3 +25,9 @@ resume-header {
   margin: 0;
   font-size: 1.8em;
 }
+
+.resume-header h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: normal;
+}
