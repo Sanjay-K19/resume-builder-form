@@ -2,14 +2,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   const fullName = localStorage.getItem('fullName') || '';
   const email = localStorage.getItem('email') || '';
-  const phone = loalStorage.getItem('phone') || '';
+  const phone = localStorage.getItem('phone') || '';
   const jobTitle = localStorage.getItem('jobTitle') || '';
   const address = localStorage.getItem('address') || '';
   const education = localStorage.getItem('education') || '';
   const skills = localStorage.getItem('skills') || '';
-  const summary = loalStorage.getItem('summary') || '';
+  const summary = localStorage.getItem('summary') || '';
   const experience = localStorage.getItem('experience') || '';
-  const reference = loalStorage.getItem('reference') || '';
+  const reference = localStorage.getItem('reference') || '';
   const profilePic = localStorage.getItem('profilePic');
 
   // Set header fields
@@ -38,16 +38,15 @@ skills.split(',').forEach(skill => {
 });
 
 // Set profile picture if available
-const imgElem = document.getElementById('profilePic');
-if (profilePic) {
-  imgElem.src = profilePic;
+const imgElem = document.getElementById('profile-pic');
+if (profile-pic) {
+  imgElem.src = profile-pic;
 } else {
   imgElem.style.display = 'none';
 }
-});
-
 // "Edit Resume" button returns to form page
 document.getElementById('editBtn').addEventListener('click', function() {
   window.location.href = '../form/index.html';
+  });
 });
 
