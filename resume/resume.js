@@ -46,3 +46,8 @@ if (profilePic) {
 }
 });
 
+// "Edit Resume" button returns to form page
+document.getElementById('editBtn').addEventListener('click', function() {
+  window.location.href = '../form/index.html';
+});
+
