@@ -1,0 +1,4 @@
+/* Reset any margins(inherited from base) */
+body {
+  margin: 0;
+}
