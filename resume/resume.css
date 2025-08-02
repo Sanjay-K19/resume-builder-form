@@ -50,3 +50,9 @@ resume-header {
   flex: 1;
   padding: 20px;
 }
+
+/* Section headings in color */
+.sidebar h3, .content h3 {
+  color: #333333;
+  margin-bottom: 5px;
+}
