@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const summary = localStorage.getItem('summary') || '';
   const experience = localStorage.getItem('experience') || '';
   const reference = localStorage.getItem('reference') || '';
-  const profilePic = localStorage.getItem('profilePic');
+  const profile-pic = localStorage.getItem('profile-pic');
 
   // Set header fields
 document.getElementById('fullName').textContent = fullName;
@@ -44,9 +44,9 @@ if (profile-pic) {
 } else {
   imgElem.style.display = 'none';
 }
-// "Edit Resume" button returns to form page
+  });
+  // "Edit Resume" button returns to form page
 document.getElementById('editBtn').addEventListener('click', function() {
   window.location.href = '../form/index.html';
-  });
 });
 
