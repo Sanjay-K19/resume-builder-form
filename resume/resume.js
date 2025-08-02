@@ -11,4 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const experience = localStorage.getItem('experience') || '';
   const reference = loalStorage.getItem('reference') || '';
   const profilePic = localStorage.getItem('profilePic');
+
+  // Set header fields
+document.getElementById('fullName').textContent = fullName;
+document.getElementById('jobTitle').textContent = jobTitle;
 })
+
