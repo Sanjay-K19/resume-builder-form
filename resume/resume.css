@@ -71,3 +71,8 @@ resume-header {
   margin: 4px 4px 4px 0;
   border-radius: 4px;
 }
+
+/* Preserve line breaks for multi-line fields */
+#experience, #education, #summary, #reference, #address {
+  white-space: pre-wrap;
+}
