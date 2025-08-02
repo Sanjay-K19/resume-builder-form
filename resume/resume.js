@@ -15,5 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set header fields
 document.getElementById('fullName').textContent = fullName;
 document.getElementById('jobTitle').textContent = jobTitle;
+
+// Set contact info
+document.getElementById('email').textContent = email;
+document.getElementById('phone').textContent = phone;
+document.getElementById('address').textContent = address;
 })
 
