@@ -76,3 +76,15 @@ resume-header {
 #experience, #education, #summary, #reference, #address {
   white-space: pre-wrap;
 }
+
+/* Edit button styling */
+#editBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
