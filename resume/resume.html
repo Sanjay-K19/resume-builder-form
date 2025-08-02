@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="../form/style.css">
+  <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+  <header class="resume-header">
+    <img id="profilePic" src="" alt="Profile Picture">
+    <div>
+      <h1 id="fullName"></h1>
+      <h2 id="jobTitle"></h2>
+    </div>
+  </header>
+  <div class="resume-container">
+    <div class="sidebar">
+      <h3>Contact</h3>
+      <p>Email:<span id="email"></span></p>
+      <p>Phone:<span id="phone"></span></p>
+      <p>Address:<span id="address"></span></p>
+
+      <h3>Education:</h3>
+      <p id="education"></p>
+
+      <h3>Skills</h3>
+      <ul id="skills-list"></ul>
+    </div>
+
+    <div class="content">
+      <h3>Summary</h3>
+      <p id="summary"></p>
+
+      <h3>Experience</h3>
+      <p id="experience"></p>
+
+      <h3>Reference</h3>
+      <p id="reference"></p>
+    </div>
+  </div>
+
+  <button id="editBtn">Edit Resume</button>
+
+  <script src="resume.js"></script>
+</body>
+</html>
