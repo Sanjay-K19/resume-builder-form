@@ -49,5 +49,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // "Edit Resume" button returns to form page
 document.getElementById('editBtn').addEventListener('click', function() {
-  window.location.href = '../Form/index.html';
+  window.location.href = '../form/index.html';
 });
