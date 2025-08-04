@@ -33,11 +33,11 @@ document.getElementById('resume-form').addEventListener('submit', function(event
       // Save Base64-encoded image to localStorage:contentReference[oaicite:16]{index=16}
       localStorage.setItem('profilePic', reader.result);
       // Open resume in new tab after saving image
-      window.open('../resume/resume.html', '_blank');
+      window.open('../resume.html', '_blank');
     };
     reader.readAsDataURL(fileInput.files[0]); // Read file as Data URL
   } else {
     // No image file selected; just open resume page
-    window.open('../resume/resume.html', '_blank');
+    window.open('../resume.html', '_blank');
   }
 });
